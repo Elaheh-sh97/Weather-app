@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather-app</title>
 
-<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container col-6 mt-4 rounded" style="height:550px">
+  
+    <div class="container col-6 mt-4 rounded" style="height: 550px">
       <form class="row p-3 form">
         <input
           type="search"
@@ -34,14 +35,19 @@
           placeholder="Enter City"
         />
         <div class="row btn border-0">
-        <input id="search"
-          type="submit"
-          value="search"
-          class="button rounded-pill col-2 border-0"
-        />
-        <input id="current" type="submit"
-        value="Current"
-        class="button rounded-pill col-2 border-0"></div>
+          <input
+            id="search"
+            type="submit"
+            value="search"
+            class="button rounded-pill col-2 border-0"
+          />
+          <input
+            id="current"
+            type="submit"
+            value="Current"
+            class="button rounded-pill col-2 border-0"
+          />
+        </div>
       </form>
 
       <!--part1-->
@@ -59,7 +65,6 @@
               >°F</a
             ></sup
           >
-
         </span>
 
         <span class="city col-6 text-center">
@@ -94,7 +99,12 @@
           </li>
         </ul>
       </div>
-
+<br>
+  <h1 style="text-align: center">
+      <a href="https://github.com/Elaheh-sh97/Weather-app.git" target="_blank"
+        >weather app</a
+      >
+    </h1>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
