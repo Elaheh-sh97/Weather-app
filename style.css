@@ -1,0 +1,94 @@
+.container {
+  background: linear-gradient(
+    69.9deg,
+    rgb(76, 79, 106) 3.2%,
+    rgb(118, 124, 163) 97.6%
+  );
+}
+.search {
+  outline: 0;
+  margin: 0 auto;
+  height: 40px;
+  box-shadow: 0px 1px 20px 0px rgb(45, 29, 64);
+}
+.degree{
+  color: rgb(255, 171, 27);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.city {
+  
+  position: relative;
+  text-align: center;
+  height: 118px;
+}
+.weather {
+  height: 200px;
+}
+.city h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+#Tempreture{
+  display: inline;
+  font-size: 56px;
+}
+
+.info {
+  /* position: relative; */
+  height: 118px;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.button {
+  transition: all 200ms ease-in;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+ 
+}
+.button:hover {
+  box-shadow: 0px 1px 20px 0px rgb(45, 29, 64);
+   background-color: rgb(247, 158, 5);
+  color: white;
+}
+.btn{
+  margin: 10px;
+}
+.weather-image {
+  /* position: relative;
+  top: -40px; */
+  height: 125px;
+}
+.part2 {
+  padding-top: 10px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top:60px;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+  /* position: relative;
+  top: 60px; */
+  border-radius: 10px;
+  box-shadow: 0px 1px 20px 0px rgb(45, 29, 64);
+}
+.part2 ul {
+  justify-content: center;
+  display: grid;
+  padding: 0;
+  grid-template-columns: auto auto auto auto auto;
+}
+.part2 ul li {
+  display: inline;
+  margin: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+}
+.subimage {
+  width: 70px;
+  height: 70px;
+}
