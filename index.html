@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather-app</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <div class="container col-6 mt-4 rounded">
+      <form class="row p-3 form">
+        <input
+          type="search"
+          class="search col-9 rounded-pill border-0"
+          id="enter-city"
+          placeholder="Enter City"
+        />
+        <div class="row btn border-0">
+          <input
+            id="search"
+            type="submit"
+            value="search"
+            class="button rounded-pill col-2 border-0"
+          />
+          <input
+            id="current"
+            type="submit"
+            value="Current"
+            class="button rounded-pill col-2 border-0"
+          />
+        </div>
+      </form>
+
+      <!--part1-->
+
+      <div class="row part1 mt-1 p-3" style="height: 150px">
+        <img id="currentIcon" src="images/clear-sky-night.png" alt="" class="weather-image col-3" />
+
+        <span class="info col-3 text-center">
+          <h1 id="Tempreture"></h1>
+          <sup
+            ><a href="" id="celsius" class="degree active">°C</a>|<a
+              href=""
+              id="fahrenheit"
+              class="degree "
+              >°F</a
+            ></sup
+          >
+
+          <div class="TempInfo">
+            <h1 id="humidity">Humidity:
+            </h1>
+            <h1 id="wind">Wind:</h1>
+          </div>
+        </span>
+
+        <span class="city col-6 text-center">
+          <h1 id="city">Tehran</h1>
+          <h1 id="dateInfo">January-2023</h1>
+          <h1 id="Date">Sunday</h1>
+        </span>
+        
+      </div>
+   
+      <!---part2-->
+      <div class="row part2 text-center">
+        <ul>
+          <li class="col">
+            Monday<img class="subimage" src="images/shower-rain-day.png" alt="" />
+            <h3>9°C</h3>
+          </li>
+          <li class="col">
+            Tuesday <img class="subimage" src="images/broken-clouds-night.png" alt="" />
+            <h3>10°C</h3>
+          </li>
+          <li class="col">
+            Wednsday <img class="subimage" src="images/shower-rain-day.png" alt="" />
+            <h3>9°C</h3>
+          </li>
+          <li class="col">
+            Thursday <img class="subimage" src="images/mist-day.png" alt="" />
+            <h3>5°C</h3>
+          </li>
+          <li class="col">
+            Friday <img class="subimage" src="images/thunderstorm - day.png" alt="" />
+            <h3>7°C</h3>
+          </li>
+        </ul>
+      </div>
+</div>
+<h1 style="text-align: center">
+  <a href="https://github.com/Elaheh-sh97/Weather-app.git" target="_blank"
+    >weather app</a
+  >
+</h1>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+      ></script>
+      <script src="weather.js"></script>
+ 
+  </body>
+</html>
