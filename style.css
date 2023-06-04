@@ -42,7 +42,9 @@
 #weatherForcast h3{
   font-size: 18px;
 }
-
+#fahrenheit{
+  color:rgb(107, 188, 241)
+}
 #minTemp{
   color: rgb(252, 186, 55);
 }

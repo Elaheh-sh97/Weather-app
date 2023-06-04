@@ -62,8 +62,8 @@ submit.addEventListener("submit", function (event) {
 ${formatDay(forcastDay.time)}</h1>
 <img class="subimage" src="images/${forcastDay.condition.icon}.png" alt="" />
 <div >
-<h3>${forcastDay.temperature.maximum}°C</h3>
-<h3 id="minTemp">${forcastDay.temperature.minimum}°C</h3></div>
+<h3>${Math.round(forcastDay.temperature.maximum)}°C</h3>
+<h3 id="minTemp">${Math.round(forcastDay.temperature.minimum)}°C</h3></div>
 </li>
 `;
       }
