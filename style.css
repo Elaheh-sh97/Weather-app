@@ -39,11 +39,21 @@
   display: inline;
   font-size: 56px;
 }
+#weatherForcast h3{
+  font-size: 18px;
+}
 
+#minTemp{
+  color: rgb(105, 103, 101);
+}
+ #weatherForcast h1{
+
+  font-size: 20px;
+}
 .info {
   /* position: relative; */
   height: 118px;
-  font-size: 25px;
+  font-size: 10px;
   font-family: "Josefin Sans", sans-serif;
   color: white;
 }
@@ -93,8 +103,8 @@
   font-size: 19px;
 }
 .subimage {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 .TempInfo h1{
   font-size: 20px;
